@@ -70,6 +70,7 @@ section {
 
 .keny {
   font-size : 1.8em;
+  margin-bottom : 30px;
 }
 
 .a-propos {
@@ -135,6 +136,7 @@ section {
 }
 
 .formation p {
+  line-height: 3;
   text-align: center;
   font-size: 1.1em;
   margin-bottom: 100px;
@@ -196,11 +198,13 @@ strong {
 #contact h2 {
   text-align: center;
   text-decoration: underline;
-  margin-bottom: 70px;
+  margin-bottom: 40px;
   font-size: 1.8em;
   font-weight: bold;
   color : rgb(20, 131, 200);
 }
+
+
 
 #contact img {
   
@@ -210,17 +214,27 @@ strong {
   margin-top: 30px;
 }
 
-#contact div {
+#contact {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  
 }
+
+/* .aregler {
+  display : inline-block;
+  vertical-align:baseline;
+} */
 
 #contact a {
   text-align: center;
 }
 
-.div2 a {
+.div1, .div2, .div3 {
+  margin : 15px;
+}
+
+.div2 a, .div3 a {
   text-decoration: none;
 }
 
@@ -228,9 +242,6 @@ strong {
   color: blue;
 }
 
-.div3 a {
-  text-decoration: none;
-}
 
 .div3 a:hover {
   color: blue;
